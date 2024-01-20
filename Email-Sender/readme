@@ -1,1 +1,2 @@
-A program to programmatically trigger an email.
+# Email Sender
+A program to programmatically trigger an email. Be sure to add particular dependencies in the pom.xml file
