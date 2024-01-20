@@ -1,0 +1,6 @@
+# String-Manipulator
+A program that takes a sentence as input and performs the following
+operations:
+1.Count the number of words in the sentence.
+2.Reverse the order of words in the sentence.
+3.Replace all spaces with hyphens ('-').
