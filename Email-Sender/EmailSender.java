@@ -8,11 +8,11 @@ public class EmailSender {
 
 	public static void main(String[] args) {
 		// Sender's email address
-		String senderEmail = "ayushpardhi800@gmail.com";
+		String senderEmail = "senderemail@gmail.com";
 		// Sender's email password (you may need an application-specific password)
-		String senderPassword = "hvsv pimx mbci fdiy";
+		String senderPassword = "**********"; //password
 		// Recipient's email address
-		String recipientEmail = "hr@ignitershub.com";
+		String recipientEmail = "recepientemail@gmail.com";
 		// Email subject
 		String subject = "Challenge 3 Completed";
 		// Email body
