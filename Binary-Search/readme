@@ -1,0 +1,6 @@
+# Binary-Search
+A program that implements the binary search algorithm to search for a
+specific element in a sorted array. The program should allow the user to input a
+target element and then search for that element in the sorted array. It should
+return the index of the element if found or indicate that the element is not in
+the array.
