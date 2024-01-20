@@ -1,0 +1,32 @@
+package com.ign_hub.palindrome;
+
+import java.util.Scanner;
+
+public class PalindromeChecker {
+
+	public static void main(String[] args) {
+
+		String reverse = "";
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter a String : ");
+		String input = sc.nextLine();
+
+		for (int i = 0; i < input.length(); i++) {
+			char ch = input.charAt(i);
+
+			reverse = ch + reverse;
+
+		}
+
+		System.out.println("Reversed string is : " + reverse);
+		
+		if(input.equals(reverse)) {
+			System.out.println("The given string is a PALINDROME");
+		}
+		else {
+			System.out.println("The given string is not a PALINDROME");
+		}
+	}
+}
